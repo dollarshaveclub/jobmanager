@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"strings"
+	"github.com/dollarshaveclub/jobmanager"
 
-	"github.com/dollarshaveclub/amino/src/jobmanager"
+	"strings"
 )
 
 func newTestJob(errors []error) *testJob {
